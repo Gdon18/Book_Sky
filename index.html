@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="from.css">
+
+</head>
+
+<body>
+
+    <!-- <form >
+    <table class="center">
+        <tr>
+            <th colspan="2">
+                <center>
+                    <h3>Register here</h3>
+                </center>
+                <hr>
+            </th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <td><input id="name-input" type="text"></td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td><input id="age-input" type="password"></td>
+        </tr>
+        <tr>
+            <th>Genter</th>
+            <td><input id="genter-input" type="text"></td>
+        </tr>
+        <tr>
+            <th>Mail</th>
+            <td><input id="mail-input" type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center><button id="submit" onclick="display()">submit</button>
+                </center>
+            </td>
+        </tr>
+    </table>
+ </form> -->
+    <!-- <div id="view">
+        <h1>Details</h1>
+        <hr style="color: black;">
+        <ul id="view_All">
+
+
+        </ul>
+    </div>  -->
+
+
+    <div class="navbar">
+        <h1>Booksky</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich Dad poor Dad</h2>
+            <h5>gokul</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum repellat quo, harum sit nihil totam
+                quia voluptate autem, quis pariatur laborum et cupiditate molestiae, aliquid atque alias expedita iusto
+                distinctio.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form>
+            <input placeholder="Book Title" id="book-title-input"><br>
+            <input placeholder="Book Author" id="book-author-input"><br>
+            <textarea placeholder="Short Description" id="book-description"></textarea><br>
+            <button id="add-book">Add</button>
+            <button id="cancle-popup">Cancle</button>
+
+        </form>
+
+
+
+    </div>
+    <button class="add-button" id="add-popup" onclick=" view_add_page()"> +</button>
+
+
+
+
+
+
+    <script src="from.js"></script>
+</body>
+
+</html>
