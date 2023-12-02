@@ -1,34 +1,4 @@
-// let names = document.getElementById("name-input")
-// let age = document.getElementById("age-input")
-// let gender = document.getElementById("genter-input")
-// let mail = document.getElementById("mail-input")
 
-// let submit = document.getElementById("submit")
-
-// let ul = document.getElementById("view_All")
-
-
-
-// function display(){
-//     var li = document.createElement("li")
-
-//     li.innerHTML = `
-//     Name: ${names.value} <br>
-//     Age: ${age.value} <br>
-//     Gender: ${gender.value} <br>
-//     Email: ${mail.value} <button onclick="deleteIdems(event)">delete</button>
-// `;
-// ul.append(li);
-//     // li.innerHTML = names.value +"<button>delete</button>"
-//     // li.innerHTML = age.value +"<button>delete</button>"
-//     // li.innerHTML = genter.value +"<button>delete</button>"
-//     // li.innerHTML = mail.value +"<button>delete</button>"
-//     // ul.append(li)
-// }
-
-// function deleteIdems(event){
-//     event.target.parentElement.remove()
-// }
 
 
 // selecting popup box popoup overley button
